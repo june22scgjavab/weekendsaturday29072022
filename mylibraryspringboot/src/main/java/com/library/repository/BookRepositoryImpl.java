@@ -16,9 +16,9 @@ public class BookRepositoryImpl implements BookRepository {
 
 	public BookRepositoryImpl() {
 		listOfBooks = new ArrayList<>();
-		BookDTO book1 = new BookDTO(2, "Learn HTML", LocalDate.of(2022, 10, 11), 50.00f, "Joanna");
+		BookDTO book1 = new BookDTO(2, "Learn HTML", LocalDate.of(2021, 10, 11), 50.00f, "Joanna");
 		listOfBooks.add(book1);
-		BookDTO book2 = new BookDTO(3, "Learn CSS", LocalDate.of(2022, 11, 23), 35.00f, "Rishi");
+		BookDTO book2 = new BookDTO(3, "Learn CSS", LocalDate.of(2021, 11, 23), 35.00f, "Rishi");
 		listOfBooks.add(book2);
 
 	}
